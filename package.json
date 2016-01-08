@@ -16,7 +16,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules\ep_etherpad-lite\node\server.js"
+    "start": "node node_modules/ep_etherpad-lite/node/server.js"
   },
   "repository": {
     "type": "git",

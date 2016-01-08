@@ -1,0 +1,31 @@
+{
+  "name": "etherpad-online-collaborative-writing-system",
+  "version": "1.0.0",
+  "description": "基于Etherpad，用于基于学习分析技术的在线系统系统 运行系统前请在根目录下面创建一个文件夹var",
+  "main": "index.js",
+  "dependencies": {
+    "ep_align": "^0.0.22",
+    "ep_copy_paste_images": "^0.0.13",
+    "ep_etherpad-lite": "^1.5.1",
+    "ep_fileupload": "^0.0.9",
+    "ep_font_family": "^0.2.6",
+    "ep_font_size": "^0.1.11",
+    "ep_previewimages": "^0.0.8",
+    "ep_scrolltoanchor": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules\ep_etherpad-lite\node\server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjhlybmwq/etherpad-Online-collaborative-writing-system.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjhlybmwq/etherpad-Online-collaborative-writing-system/issues"
+  },
+  "homepage": "https://github.com/mjhlybmwq/etherpad-Online-collaborative-writing-system#readme"
+}
